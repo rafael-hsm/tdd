@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.9"
+install:
+  - pip install pytest
+  - pip install flake8
+script:
+  - flake8
+  - pytest tests -v
