@@ -6,15 +6,14 @@ Regras do Fizzbuzz
 3. se a posição for multipla de 3 e 5: fizzbuzz
 4. Para qualquer outras posição fale o próprio nº.
 """
-from functools import partial
-
-multiple_of = lambda base, num: num % base == 0
-multiple_of_5 = partial(multiple_of, 5)
-multiple_of_3 = partial(multiple_of, 3)
 
 
-def multiple_of(base, num):
-    return num % base == 0
+def multiple_of_5(pos):
+    return pos % 5 == 0
+
+
+def multiple_of_3(pos):
+    return pos % 3 == 0
 
 
 def robot(pos):
