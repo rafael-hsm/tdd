@@ -17,7 +17,7 @@ class test_numeros_multiplos(unittest.TestCase):
         self.assertEqual(numeros_multiplos(5, 25), 'sao multiplos')
 
     def test_multiplos_25_6(self):
-        self.assertEqual(numeros_multiplos(25, 6),'nao sao multiplos')
+        self.assertEqual(numeros_multiplos(25, 6), 'nao sao multiplos')
 
     def test_multiplos_6_25(self):
         self.assertEqual(numeros_multiplos(6, 25), 'nao sao multiplos')
@@ -30,4 +30,3 @@ class test_numeros_multiplos(unittest.TestCase):
 
     def test_multiplos_15_2(self):
         self.assertEqual(numeros_multiplos(15, 2), 'nao sao multiplos')
-

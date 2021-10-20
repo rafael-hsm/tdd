@@ -7,7 +7,7 @@ def ordena_lados(l1, l2, l3):
     return [a, b, c]
 
 
-def triangulo_retangulo(a, b , c): return a ** 2 == b ** 2 + c ** 2
+def triangulo_retangulo(a, b, c): return a ** 2 == b ** 2 + c ** 2
 
 
 def nao_triangulo(a, b,  c): return a >= b + c

@@ -25,4 +25,4 @@ class TestTriangulo(unittest.TestCase):
         self.assertEqual(triangulos(6.0, 5.0, 10.0), 'TRIANGULO OBTUSANGULO')
 
     def test_triangulo_obtusangulo_isosceles(self):
-        self.assertEqual(triangulos(6.0, 6.0, 10.0), 'TRIANGULO OBTUSANGULO ISOSCELES') 
+        self.assertEqual(triangulos(6.0, 6.0, 10.0), 'TRIANGULO OBTUSANGULO ISOSCELES')
