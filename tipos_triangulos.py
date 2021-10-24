@@ -1,4 +1,4 @@
-# Função com o objetivo de auxiliar no teste do funcionamento da ordenação da linha 38 e 39
+
 def ordena_lados(l1, l2, l3):
     """ordena os lados para verificar se forma triângulos"""
     lados = sorted([l1, l2, l3], reverse=True)
@@ -66,11 +66,3 @@ def triangulos(l1, l2, l3):
             tipo_triangulo = TRIANGULOS[6]
 
     return tipo_triangulo
-
-
-if __name__ == '__main__':
-
-    print(triangulos(5.0, 7.0, 7.0))
-    print(ordena_lados(5.0, 7.0, 7.0))
-    print(triangulos(5.0, 7.0, 2.0))
-    print(ordena_lados(5.0, 7.0, 2.0))
